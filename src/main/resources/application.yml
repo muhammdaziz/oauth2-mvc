@@ -1,0 +1,50 @@
+server:
+    port: 8082
+
+spring:
+  datasource:
+        url: jdbc:postgresql://localhost:5432/auth
+        username: postgres
+        password: 1234qw
+  jpa:
+    hibernate:
+        ddl-auto: create
+#    show-sql: true
+
+  security:
+    oauth2:
+      client:
+        registration:
+            github:
+              clientId: bd27cb0f827eee7bced8
+              clientSecret: 1ecd169993efa92d7f397909a66797683f01fae4
+              scope:
+               - email
+               - profile
+
+            google:
+                client-id: 551721338128-9rbo8230e1h7l5l16kgs8gf5vdlqul5q.apps.googleusercontent.com
+                client-secret: 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
+                scope:
+                    - email
+                    - profile
+
+            linkedin:
+                client-id: 77zzr14oj6q73r
+                client-secret: inEK0eyrZ22xkVLz
+                authorization-grant-type: authorization_code
+                redirect-uri: "http://localhost:8082/list"
+
+
+            facebook:
+                client-id: 427340196149342
+                client-secret: 4241a44d352c027b3e06218262e154fc
+                scope:
+                - user:email
+                - read:user
+
+        provider:
+            linkedin:
+                authorization-uri: https://www.linkedin.com/oauth/v2/authorization
+                token-uri: https://www.linkedin.com/oauth/v2/accessToken
+
