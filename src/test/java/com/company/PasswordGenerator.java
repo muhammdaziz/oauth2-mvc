@@ -1,4 +1,4 @@
-package net.codejava;
+package com.company;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

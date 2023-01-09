@@ -1,9 +1,9 @@
-package net.codejava.config;
+package com.company.config;
 
+import com.company.service.CustomOAuth2UserService;
+import com.company.service.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
-import net.codejava.service.CustomOAuth2UserService;
-import net.codejava.service.UserDetailsServiceImpl;
-import net.codejava.utils.SuccessHandler;
+import com.company.utils.SuccessHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;

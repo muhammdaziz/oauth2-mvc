@@ -1,4 +1,4 @@
-package net.codejava.payload;
+package com.company.payload;
 
 import java.util.Collection;
 import java.util.Map;

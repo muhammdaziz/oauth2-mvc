@@ -1,10 +1,10 @@
-package net.codejava.service;
+package com.company.service;
 
 import java.util.List;
 
 import lombok.RequiredArgsConstructor;
-import net.codejava.repository.ProductRepository;
-import net.codejava.entity.Product;
+import com.company.repository.ProductRepository;
+import com.company.entity.Product;
 import org.springframework.stereotype.Service;
 
 @Service

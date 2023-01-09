@@ -1,6 +1,6 @@
-package net.codejava.repository;
+package com.company.repository;
 
-import net.codejava.entity.Product;
+import com.company.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

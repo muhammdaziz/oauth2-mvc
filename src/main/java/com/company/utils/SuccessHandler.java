@@ -1,8 +1,8 @@
-package net.codejava.utils;
+package com.company.utils;
 
+import com.company.payload.CustomOAuth2User;
+import com.company.service.UserService;
 import lombok.RequiredArgsConstructor;
-import net.codejava.payload.CustomOAuth2User;
-import net.codejava.service.UserService;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 import org.springframework.stereotype.Service;

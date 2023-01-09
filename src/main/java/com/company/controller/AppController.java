@@ -1,11 +1,10 @@
-package net.codejava.controller;
+package com.company.controller;
 
 import java.util.List;
 
+import com.company.service.ProductService;
 import lombok.RequiredArgsConstructor;
-import net.codejava.entity.Product;
-import net.codejava.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.company.entity.Product;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

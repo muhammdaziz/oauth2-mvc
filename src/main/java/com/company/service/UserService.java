@@ -1,9 +1,9 @@
-package net.codejava.service;
+package com.company.service;
 
+import com.company.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import net.codejava.repository.UserRepository;
-import net.codejava.entity.enums.Provider;
-import net.codejava.entity.User;
+import com.company.entity.enums.Provider;
+import com.company.entity.User;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;

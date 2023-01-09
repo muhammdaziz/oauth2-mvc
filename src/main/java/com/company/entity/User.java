@@ -1,9 +1,9 @@
-package net.codejava.entity;
+package com.company.entity;
 
+import com.company.entity.enums.Provider;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import net.codejava.entity.enums.Provider;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
